@@ -11,15 +11,10 @@ def adicionar_livro():
 
     livro=[]
 
-    titulo=input("Título: ").title()
-    autor=input("Autor: ").title()
-    categoria=input("Categoria: ").title()
-    preco=float(input("Preço: "))
-
-    livro.append(titulo)
-    livro.append(autor)
-    livro.append(categoria)
-    livro.append(preco)
+    livro.append(input("Título: ").title())
+    livro.append(input("Autor: ").title())
+    livro.append(input("Categoria: ").title())
+    livro.append(float(input("Preço: ")))
 
     livros=open("livros.txt", "a", encoding='utf-8')
     livros.write(livro[0]+";")
