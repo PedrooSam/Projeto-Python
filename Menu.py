@@ -1,7 +1,5 @@
-from Pedro import adicionar_livro
-from Pedro import visualizar_livros
-from Pedro import atualizar_livro
-from Pedro import excluir_livro
+import Funcoes
+import time
 
 while True:
     print("\nMenu:")
@@ -14,15 +12,18 @@ while True:
     escolha = input("Digite o número da opção desejada: ")
 
     if escolha == "1":
-        adicionar_livro()
+        Funcoes.adicionar_livro()
     elif escolha == "2":
-        visualizar_livros()
+        Funcoes.visualizar_livros()
     elif escolha == "3":
-        atualizar_livro()
+        Funcoes.atualizar_livro()
     elif escolha == "4":
-        excluir_livro()
+        Funcoes.excluir_livro()
     elif escolha == "0":
         print("Saindo do programa. Até mais!")
+        time.sleep(1)  
         break
     else:
         print("Opção inválida. Tente novamente.")
+    
+    time.sleep(1)  
