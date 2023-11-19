@@ -29,7 +29,7 @@ Valor: R${livro[3]}'''
     
     print (f'''_______________________________________________________________________________
 
-Total de livros cadastrados: {quant_livros}    Total gasto: R${total_gasto}''')
+Total de livros cadastrados: {quant_livros}    Total gasto: R${total_gasto :.2f}''')
 
     for c in range (len(livros)):
         print (livros[c])
@@ -73,7 +73,7 @@ Valor: R${livro[3]}'''
 
             print (f'''_______________________________________________________________________________
 
-Nº de livros encontrados na categoria: {quant_livros}    Total gasto na categoria: R${total_gasto}''')
+Nº de livros encontrados na categoria: {quant_livros}    Total gasto na categoria: R${total_gasto :.2f}''')
 
             for c in range (len(livros)):
                 print (livros[c])
@@ -120,7 +120,7 @@ Valor: R${livro[3]}'''
 
             print (f'''_______________________________________________________________________________
 
-Nº de livros encontrados do autor: {quant_livros}    Total gasto com o autor: R${total_gasto}''')
+Nº de livros encontrados do autor: {quant_livros}    Total gasto com o autor: R${total_gasto :.2f}''')
 
             for c in range (len(livros)):
                 print (livros[c])
