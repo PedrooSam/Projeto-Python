@@ -26,5 +26,3 @@ def adicionar_livro():
 
     print("\nLivro Adicionado!")
     sleep(1.5)
-
-adicionar_livro()

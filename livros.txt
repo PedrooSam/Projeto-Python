@@ -1,2 +1,5 @@
 Título Do Livro;Autor Do Livro;Categoria;123.0
 Áwd;Áwd;Áwd;1.0
+Jonas;Jonas;Jonas;12.0
+Santa;Lixo;Lixo;0.0
+Chiquinho;Felipe;Cachorro;190.0
