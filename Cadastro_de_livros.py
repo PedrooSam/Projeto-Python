@@ -16,12 +16,12 @@ def adicionar_livro():
     livro.append(input("Categoria: ").title())
     livro.append(float(input("Preço: ")))
 
-    livros=open("livros.txt", "a", encoding='utf-8')
-    livros.write(livro[0]+";")
-    livros.write(livro[1]+";")
-    livros.write(livro[2]+";")
-    livros.write(str(livro[3])+"\n")
+    livro[3]="{:.2f}".format(livro[3])
 
+    livros2=livre=";".join(livro)
+
+    livros=open("livros.txt", "a", encoding='utf-8')
+    livros.write(livre+"\n")
     livros.close()
 
     print("\nLivro Adicionado!")
