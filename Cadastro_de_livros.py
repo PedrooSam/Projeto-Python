@@ -16,7 +16,7 @@ def adicionar_livro():
     print("1. Fantasia\n2. Ficção Científica\n3. Distopia\n4. Ação e Aventura\n5. Ficção Policial\n6. Horror\n7. Thriller e Suspense\n8. Ficção Histórica\n9. Romance\n10. Novela\n11. Ficção Feminina\n12. LGBT\n13. Ficção Comtemporânea\n14. Realismo Mágico\n15. Graphic Novel\n16. Conto\n17. Jovem Adulto\n18. Novo Adulto\n19. Infantil")
     while True:
         categoria = input("Categoria (número entre 1 e 19): ")
-        if categoria.isdigit():
+        if categoria.isdigit() and 1 <= int(categoria) <= 19:
             if categoria == '1':
                 livro.append("FANTASIA")
                 break
