@@ -1,6 +1,7 @@
 import Cadastro_de_livros
 import Atualizar_livros
 import Visualizar_livros
+import Excluir_livros
 import Funcoes
 
 while True:
@@ -36,7 +37,9 @@ while True:
     elif escolha == "3":
         Atualizar_livros.atualizar_livro()
     elif escolha == "4":
-        Funcoes.excluir_livro()
+        Excluir_livros.excluir_livro()
+
+        print("Livro excluído!")
     elif escolha == "0":
         print("Saindo do programa. Até mais!")
         break
