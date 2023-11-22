@@ -2,3 +2,5 @@
 Chiquinho;Felipe;Cachorro;190.0
 Hgfhgfgf;Ggfdgb;Gfdgfdgf;12.00
 Afdskh;Yeuwirq;AÇÃO E AVENTURA;333.00
+Esaf;Ret;FICÇÃO POLICIAL;6.00
+Teste;Teste;FICÇÃO POLICIAL;123456.00

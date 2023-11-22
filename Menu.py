@@ -11,7 +11,7 @@ while True:
     sleep(1.5)
     os.system("cls")
 
-    print("\nMenu:")
+    print("-----MENU-----\n")
     print("1. Adicionar Livro")
     print("2. Visualizar Livros")
     print("3. Atualizar Livro")
@@ -29,6 +29,7 @@ while True:
         sleep(1.5)
         os.system("cls")
 
+        print("-----VIZUALIZAR-----")
         print("\nEscolha o tipo de categoria:")
         print("Geral [0]")
         print("Categoria [1]")
