@@ -2,9 +2,14 @@ import Cadastro_de_livros
 import Atualizar_livros
 import Visualizar_livros
 import Excluir_livros
-import Funcoes
+import os
+from time import sleep
 
 while True:
+    os.system("cls")
+    print("Carregando...")
+    sleep(1.5)
+    os.system("cls")
 
     print("\nMenu:")
     print("1. Adicionar Livro")
@@ -17,13 +22,24 @@ while True:
 
     if escolha == "1":
         Cadastro_de_livros.adicionar_livro()
+
     elif escolha == "2":
+        os.system("cls")
+        print("Carregando...")
+        sleep(1.5)
+        os.system("cls")
+
         print("\nEscolha o tipo de categoria:")
         print("Geral [0]")
         print("Categoria [1]")
         print("Autor [2]")
         
         tipo_view = input("Digite o número da opção desejada: ")
+
+        os.system("cls")
+        print("Carregando...")
+        sleep(1.5)
+        os.system("cls")
 
         if tipo_view == '0':
             print(Visualizar_livros.visualizacao_geral())
@@ -36,12 +52,14 @@ while True:
     
     elif escolha == "3":
         Atualizar_livros.atualizar_livro()
+
     elif escolha == "4":
         Excluir_livros.excluir_livro()
 
-        print("Livro excluído!")
     elif escolha == "0":
         print("Saindo do programa. Até mais!")
+        sleep(1.5)
         break
+
     else:
         print("Opção inválida. Tente novamente.")
