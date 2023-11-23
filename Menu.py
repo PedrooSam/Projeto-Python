@@ -4,10 +4,12 @@ import Visualizar_livros
 import Excluir_livros
 import Tratamento_de_Erros
 import Recomendacao
+from os import system
 from time import sleep
 
 while True:
 
+    system ('cls')
 
     print("-----MENU-----\n")
     print("1. Adicionar Livro")
