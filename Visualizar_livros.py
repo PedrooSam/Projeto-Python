@@ -33,6 +33,8 @@ Total de livros cadastrados: {quant_livros}    Total gasto: R${total_gasto :.2f}
 
     for c in range (len(livros)):
         print (livros[c])
+    
+    livros = []
     return ''
 
 
@@ -78,7 +80,7 @@ Nº de livros encontrados na categoria: {quant_livros}    Total gasto na categor
             for c in range (len(livros)):
                 print (livros[c])
         else:
-            print ('Categoria não encontrada!')
+            print ('Não há livros cadastrados nessa categoria!')
         return ''
       
 
@@ -125,5 +127,5 @@ Nº de livros encontrados do autor: {quant_livros}    Total gasto com o autor: R
             for c in range (len(livros)):
                 print (livros[c])
         else:
-            print ('Autor não encontrado!')
+            print ('Não há livros cadastrados nessa autoria!')
         return ''
