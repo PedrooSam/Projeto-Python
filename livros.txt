@@ -1,6 +1,7 @@
-Áwd;Áwd;Áwd;1.0
-Chiquinho;Felipe;Cachorro;190.0
-Hgfhgfgf;Ggfdgb;Gfdgfdgf;12.00
-Afdskh;Yeuwirq;AÇÃO E AVENTURA;333.00
-Esaf;Ret;FICÇÃO POLICIAL;6.00
-Teste;Teste;FICÇÃO POLICIAL;123456.00
+Teste1;A;FICÇÃO CIENTÍFICA;60.00
+Teste2;B;FICÇÃO CIENTÍFICA;78.90
+Teste3;C;FANTASIA;80.00
+Teste4;C;DISTOPIA;100.00
+Teste5;C;AÇÃO E AVENTURA;75.50
+Teste6;D;FICÇÃO CONTEMPORÂNEA;150.00
+Teste7;E;ROMANCE;50.00
