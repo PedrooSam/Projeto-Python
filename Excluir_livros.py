@@ -1,4 +1,7 @@
+from time import sleep
+
 def excluir_livro():
+
     arquivo = open('livros.txt', 'r', encoding='utf-8')
     info = arquivo.readlines()
     arquivo.close()
@@ -15,5 +18,9 @@ def excluir_livro():
         arquivo = open('livros.txt', 'w', encoding='utf-8')
         arquivo.writelines(info)
         arquivo.close()
+
+        print("\nLivro excluído!")
+        sleep(1.5)
+
     else:
         print("Número inválido. Nenhum livro foi excluído.")
