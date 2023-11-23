@@ -1,8 +1,7 @@
-import os
 from time import sleep
 
 def recomendacao():
-    os.system("cls")
+
     cont1  = 0
     cont2  = 0
     cont3  = 0
@@ -31,42 +30,61 @@ def recomendacao():
 
             if dados[2] == "FANTASIA":
                 cont1 += 1
+
             if dados[2] == "FICÇÃO CIENTÍFICA":
                 cont2 += 1
+
             if dados[2] == "DISTOPIA":
                 cont3 += 1
+
             if dados[2] == "AÇÃO E AVENTURA":
                 cont4 += 1
+
             if dados[2] == "FICÇÃO POLICIAL":
                 cont5 += 1
+
             if dados[2] == "HORROR":
                 cont6 += 1
+
             if dados[2] == "THRILLER E SUSPENSE":
                 cont7 += 1
+
             if dados[2] == "FICÇÃO HISTÓRICA":
                 cont8 += 1
+
             if dados[2] == "ROMANCE":
                 cont9 += 1
+
             if dados[2] == "NOVELA":
                 cont10 += 1
+
             if dados[2] == "FICÇÃO FEMININA":
                 cont11 += 1
+
             if dados[2] == "LGBT":
                 cont12 += 1
+                
             if dados[2] == "FICÇÃO CONTEMPORÂNEA":
                 cont13 += 1
+
             if dados[2] == "REALISMO MÁGICO":
                 cont14 += 1
+
             if dados[2] == "GRAPHIC NOVEL":
                 cont15 += 1
+
             if dados[2] == "CONTO":
                 cont16 += 1
+
             if dados[2] == "JOVEM ADULTO":
                 cont17 += 1
+
             if dados[2] == "NOVO ADULTO":
                 cont18 += 1
+
             if dados[2] == "INFANTIL":
                 cont19 += 1
+                
         genero_preferido = "1"
         if cont1 < cont2:
             genero_preferido = "2"
