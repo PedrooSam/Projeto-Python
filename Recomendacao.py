@@ -88,39 +88,39 @@ def recomendacao():
         genero_preferido = "1"
         if cont1 < cont2:
             genero_preferido = "2"
-        if cont2 < cont3:
+        elif cont2 < cont3:
             genero_preferido = "3"
-        if cont3 < cont4:
+        elif cont3 < cont4:
             genero_preferido = "4"
-        if cont4 < cont5:
+        elif cont4 < cont5:
             genero_preferido = "5"
-        if cont5 < cont6:
+        elif cont5 < cont6:
             genero_preferido = "6"
-        if cont6 < cont7:
+        elif cont6 < cont7:
             genero_preferido = "7"
-        if cont7 < cont8:
+        elif cont7 < cont8:
             genero_preferido = "8"
-        if cont8 < cont9:
+        elif cont8 < cont9:
             genero_preferido = "9"
-        if cont9 < cont10:
+        elif cont9 < cont10:
             genero_preferido = "10"
-        if cont10 < cont11:
+        elif cont10 < cont11:
             genero_preferido = "11"
-        if cont11 < cont12:
+        elif cont11 < cont12:
             genero_preferido = "12"
-        if cont12 < cont13:
+        elif cont12 < cont13:
             genero_preferido = "13"
-        if cont13 < cont14:
+        elif cont13 < cont14:
             genero_preferido = "14"
-        if cont14 < cont15:
+        elif cont14 < cont15:
             genero_preferido = "15"
-        if cont15 < cont16:
+        elif cont15 < cont16:
             genero_preferido = "16"
-        if cont16 < cont17:
+        elif cont16 < cont17:
             genero_preferido = "17"
-        if cont17 < cont18:
+        elif cont17 < cont18:
             genero_preferido = "18"
-        if cont18 < cont19:
+        elif cont18 < cont19:
             genero_preferido = "19"
         
 
